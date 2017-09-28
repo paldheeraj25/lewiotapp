@@ -16,6 +16,14 @@
   <meta name="theme-color" content="#4e8ef7">
 
   <!-- cordova.js required for cordova apps -->
+  <script>
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+      }, 0);
+    });
+  </script>
   <script src="cordova.js"></script>
 
   <!-- un-comment this code to enable service worker
